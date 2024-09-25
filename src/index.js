@@ -11,6 +11,10 @@ import Documents from './pages/documents';
 import Downloads from './pages/downloads';
 import Login from './pages/login';
 import Register from './pages/register';
+import Users from './pages/users';
+import Comments from './pages/commentsPage';
+import Posts from './pages/Posts';
+import AddPosts from './pages/AddPosts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +29,10 @@ root.render(
           <Route path='profile' element={<Profile />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Register />} />
+          <Route path='users' element={<Users />} />
+          <Route path='comments' element={<Comments />} />
+          <Route path='posts' element={<Posts />} />
+          <Route path='posts/add' element={<AddPosts />} />
         </Route>
       </Routes>
     </BrowserRouter>

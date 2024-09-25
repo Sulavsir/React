@@ -1,0 +1,60 @@
+.footer-below .dummy {
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer-below .dummy h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-below .dummy p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-below {
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.footer-below .dummy p{
+    text-decoration-style: wavy;
+}
+
+.footer-below footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer-below footer p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-below ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-below li {
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-below li:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,32 @@
+.user-card {
+    max-width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px grey;
+    overflow: hidden;
+    
+}
+
+.user-title {
+    height: 100px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.user-info {
+    font-size: 18px;
+    padding: 20px;
+}
+.user-address {
+    padding: 0px 20px;
+}
+.user-address strong {
+    display: block;
+}
+.user-company {
+    padding: 20px 20px;
+}

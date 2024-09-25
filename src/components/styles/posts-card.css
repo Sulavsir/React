@@ -1,0 +1,16 @@
+.posts-card{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 4px goldenrod;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.posts-id{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px ;
+}
+

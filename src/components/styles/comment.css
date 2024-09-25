@@ -1,0 +1,18 @@
+
+
+#comment-container{
+    margin: 20px 20px;
+    max-width: 600px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px 0px grey ;
+    background-color: white;
+}
+
+#comment-container .parent{
+    display: flex;
+    align-items: center;
+}
+#comment-container p{
+    margin-left: 20px;
+}
